@@ -1,0 +1,146 @@
+.about {
+  background-color: var(--bg-secondary);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: var(--accent-green);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.infoCard {
+  background-color: var(--bg-primary);
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: var(--shadow-lg);
+  max-width: 900px;
+  width: 100%;
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detailItem:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  background-color: white;
+}
+
+.icon {
+  color: var(--accent-green);
+  width: 24px;
+  height: 24px;
+}
+
+.label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.value {
+  display: block;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.educationSection {
+  border-top: 1px solid var(--border-color);
+  padding-top: 40px;
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -25px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--accent-green);
+  border: 2px solid white;
+}
+
+.timelineContent h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.timelineContent p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .infoCard {
+    padding: 32px 24px;
+  }
+}

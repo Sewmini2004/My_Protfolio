@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./src/components/References.module.css":
+/*!**********************************************!*\
+  !*** ./src/components/References.module.css ***!
+  \**********************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"references\":\"References_references__ymtr4\",\"sectionHeader\":\"References_sectionHeader__Ivfq9\",\"divider\":\"References_divider__XvEqv\",\"refGrid\":\"References_refGrid__2n_87\",\"refCard\":\"References_refCard__nxm34\",\"header\":\"References_header__wM1VT\",\"avatar\":\"References_avatar__RbNy8\",\"name\":\"References_name__p7reH\",\"position\":\"References_position__j01KI\",\"company\":\"References_company__lQzB5\",\"contactInfo\":\"References_contactInfo__VrE8B\",\"infoRow\":\"References_infoRow__hpQSx\",\"label\":\"References_label__lEoaP\",\"value\":\"References_value__8zxBC\"};\n    if(true) {\n      // 1774332452108\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"b243650dc52e\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9jb21wb25lbnRzL1JlZmVyZW5jZXMubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBLGtCQUFrQjtBQUNsQixPQUFPLElBQVU7QUFDakI7QUFDQSxzQkFBc0IsbUJBQU8sQ0FBQyx3TUFBcUcsY0FBYyxzREFBc0Q7QUFDdk0sTUFBTSxVQUFVO0FBQ2hCO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zcmMvY29tcG9uZW50cy9SZWZlcmVuY2VzLm1vZHVsZS5jc3M/ZTA4NyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbm1vZHVsZS5leHBvcnRzID0ge1wicmVmZXJlbmNlc1wiOlwiUmVmZXJlbmNlc19yZWZlcmVuY2VzX195bXRyNFwiLFwic2VjdGlvbkhlYWRlclwiOlwiUmVmZXJlbmNlc19zZWN0aW9uSGVhZGVyX19JdmZxOVwiLFwiZGl2aWRlclwiOlwiUmVmZXJlbmNlc19kaXZpZGVyX19YdkVxdlwiLFwicmVmR3JpZFwiOlwiUmVmZXJlbmNlc19yZWZHcmlkX18ybl84N1wiLFwicmVmQ2FyZFwiOlwiUmVmZXJlbmNlc19yZWZDYXJkX19ueG0zNFwiLFwiaGVhZGVyXCI6XCJSZWZlcmVuY2VzX2hlYWRlcl9fd00xVlRcIixcImF2YXRhclwiOlwiUmVmZXJlbmNlc19hdmF0YXJfX1JiTnk4XCIsXCJuYW1lXCI6XCJSZWZlcmVuY2VzX25hbWVfX3A3cmVIXCIsXCJwb3NpdGlvblwiOlwiUmVmZXJlbmNlc19wb3NpdGlvbl9fajAxS0lcIixcImNvbXBhbnlcIjpcIlJlZmVyZW5jZXNfY29tcGFueV9fbFF6QjVcIixcImNvbnRhY3RJbmZvXCI6XCJSZWZlcmVuY2VzX2NvbnRhY3RJbmZvX19WckU4QlwiLFwiaW5mb1Jvd1wiOlwiUmVmZXJlbmNlc19pbmZvUm93X19ocFFTeFwiLFwibGFiZWxcIjpcIlJlZmVyZW5jZXNfbGFiZWxfX2xFb2FQXCIsXCJ2YWx1ZVwiOlwiUmVmZXJlbmNlc192YWx1ZV9fOHp4QkNcIn07XG4gICAgaWYobW9kdWxlLmhvdCkge1xuICAgICAgLy8gMTc3NDMzMjQ1MjEwOFxuICAgICAgdmFyIGNzc1JlbG9hZCA9IHJlcXVpcmUoXCJEOi9teV9wb3J0Zm9saW8vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jb21waWxlZC9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9obXIvaG90TW9kdWxlUmVwbGFjZW1lbnQuanNcIikobW9kdWxlLmlkLCB7XCJwdWJsaWNQYXRoXCI6XCIvX25leHQvXCIsXCJlc01vZHVsZVwiOmZhbHNlLFwibG9jYWxzXCI6dHJ1ZX0pO1xuICAgICAgbW9kdWxlLmhvdC5kaXNwb3NlKGNzc1JlbG9hZCk7XG4gICAgICBcbiAgICB9XG4gIFxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiYjI0MzY1MGRjNTJlXCJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/components/References.module.css\n"));
+
+/***/ })
+
+});

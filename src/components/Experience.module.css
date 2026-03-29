@@ -1,0 +1,153 @@
+.experience {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.experience::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10%;
+  width: 50%;
+  height: 50%;
+  background: radial-gradient(circle, rgba(5, 214, 116, 0.05) 0%, rgba(0, 0, 0, 0) 70%);
+  pointer-events: none;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.whiteText {
+  color: var(--text-light) !important;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: var(--accent-green);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timelineItem {
+  padding: 10px 40px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.timelineItem:nth-child(odd) {
+  left: 0;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.timelineItem:nth-child(even) {
+  left: 50%;
+  padding-left: 50px;
+}
+
+.timelinePeriod {
+  display: inline-block;
+  padding: 6px 16px;
+  background-color: var(--accent-green-light);
+  color: var(--accent-green);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border: 1px solid rgba(5, 214, 116, 0.2);
+}
+
+.timelineContent {
+  padding: 30px;
+  background: var(--bg-dark-card);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-5px);
+  border-color: rgba(5, 214, 116, 0.3);
+}
+
+.timelineDot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -60px;
+  background-color: var(--accent-green);
+  border: 4px solid var(--bg-dark);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 0 4px rgba(5, 214, 116, 0.2);
+}
+
+.timelineItem:nth-child(even) .timelineDot {
+  left: -60px;
+}
+
+.jobTitle {
+  font-size: 1.35rem;
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.companyName {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-bottom: 16px;
+}
+
+.jobDescription {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .timeline::after {
+    left: 31px;
+  }
+  .timelineItem {
+    width: 100%;
+    padding-left: 70px !important;
+    padding-right: 25px !important;
+    text-align: left !important;
+  }
+  .timelineItem:nth-child(even) {
+    left: 0%;
+  }
+  .timelineDot {
+    left: -49px !important;
+    right: auto !important;
+  }
+}
