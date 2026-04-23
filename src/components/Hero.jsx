@@ -17,7 +17,7 @@ export default function Hero() {
             Associate Software Engineer
           </h2>
           <p className={`${styles.description} animate-fade-in-up delay-300`}>
-            A Motivated Full Stack Software Developer with 1.8 years of experience. I specialize in designing and deploying scalable systems, rapidly adapting from Java foundations to PHP Full-Stack development to build beautiful, functional web applications.
+            A Motivated Full Stack Software Developer with 2 years of experience. I specialize in designing and deploying scalable systems, rapidly adapting from Java foundations to PHP Full-Stack development to build beautiful, functional web applications.
           </p>
           <div className={`${styles.actions} animate-fade-in-up delay-400`}>
             <a href="#contact" className="btn btn-primary" style={{ padding: '14px 32px' }}>
@@ -30,9 +30,9 @@ export default function Hero() {
         </div>
         <div className={`${styles.imageWrapper} animate-fade-in-up delay-300`}>
           <div className={styles.imagePlaceholder}>
-            <img 
-              src="/profile.png" 
-              alt="Sewmini Pramodya" 
+            <img
+              src="/profile.png"
+              alt="Sewmini Pramodya"
               className={styles.profileImage}
             />
             {/* Abstract Background Decoration behind image */}
