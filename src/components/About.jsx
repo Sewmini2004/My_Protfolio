@@ -9,18 +9,18 @@ export default function About() {
           <h2 className="title">About <span className="gradient-text">Me</span></h2>
           <div className={styles.divider}></div>
         </div>
-        
+
         <div className={styles.content}>
           <div className={styles.infoCard}>
             <p className={styles.bio}>
-              I am Sewmini Pramodya Rupasinghe, a highly motivated Associate Software Engineer based in Mathugama. 
-              With a solid foundation in Java and rapid adaptation to full-stack PHP frameworks (Laravel & CodeIgniter), 
+              I am Sewmini Pramodya Rupasinghe, a highly motivated Associate Software Engineer based in Mathugama.
+              With a solid foundation in Java and rapid adaptation to full-stack PHP frameworks (Laravel & CodeIgniter),
               I have hands-on experience in building scalable enterprise solutions like HRM & Payroll systems.
-              <br/><br/>
-              My passion lies in backend architecture, frontend aesthetic design, and integrating modern technologies 
+              <br /><br />
+              My passion lies in backend architecture, frontend aesthetic design, and integrating modern technologies
               like AI/ML (Python) for automated processes.
             </p>
-            
+
             <div className={styles.detailsGrid}>
               <div className={styles.detailItem}>
                 <User className={styles.icon} />
@@ -47,11 +47,11 @@ export default function About() {
                 <Calendar className={styles.icon} />
                 <div>
                   <span className={styles.label}>Experience</span>
-                  <span className={styles.value}>1.8+ Years</span>
+                  <span className={styles.value}>2+ Years</span>
                 </div>
               </div>
             </div>
-            
+
             <div className={styles.educationSection}>
               <h3 className={styles.subHeading}>Education Timeline</h3>
               <div className={styles.timeline}>
